@@ -38,18 +38,8 @@
 
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/jade.css" title="jade" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/beige.css" title="beige" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/orange.css" title="orange" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/peach.css" title="peach" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/purple.css" title="purple" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/sky-blue.css" title="sky-blue" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />
-
+    
+    <link rel="stylesheet" href="images/screenshots/lightbox2/css/lightbox.css">
 
     <!-- Bri8 JS  -->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
@@ -73,6 +63,15 @@
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
+	<style>
+.webapp-portfolio-image{
+   width: 180px;
+   border:5px solid #EEF0F1;
+}
+.mobile-image{
+   width: 100;
+}
+</style>
 </head>
 
 <body>
@@ -132,10 +131,18 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
-						
-                        <a class="navbar-brand" href="index.html" >
-                            <img alt="" src="images/logo.gif" style="height:43px;width:45px"><span style="font-size:26px;color:#E75348;font-style:bold">BR<span style="font-size:26px;color:#AA5B52">I</span>8</span><font style="font-size:12px;color:#909090">Consultancy Services Pvt Ltd</font>
-                        </a>
+						<table >
+						  <tr>
+						     <td> <a class="navbar-brand" href="index.html" ><img alt="" src="images/logo.gif" style="height:43px;width:45px"></a>
+							 </td>
+							 <td><span style="font-size:32px;color:#E75348;font-style:bold">BR<span style="font-size:32px;color:#AA5B52">i</span>8</span>
+							&nbsp;<font style="font-size:22px;color:#909090">Consultancy Services Pvt Ltd</font>
+							 </td>
+						  </tr>
+						</table>
+                       
+							
+                        
 						<br/>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -201,13 +208,12 @@
                         <div class="slider-content">
                             <div class="col-md-12 text-center">
                                 <h2 class="animated2">
-                        		  <span>Welcome to <strong>Bri8</strong></span>
+                        		  <span>Welcome to <strong>BRi8</strong></span>
                         	    </h2>
                                 <h3 class="animated3">
-                            		<span>We are here to power your imagination </span>
+                            		<span>Simplifying process </span>
                             	</h3>
-                                <p class="animated4"><a href="#" class="slider btn btn-system btn-large">Check Now</a>
-                                </p>
+                               
                             </div>
                         </div>
                     </div>
@@ -217,9 +223,9 @@
                         <div class="slider-content">
                             <div class="col-md-12 text-center">
                                 <h2 class="animated4">
-                                <span><strong>Bri8</strong> for the highest</span>
+                                <span><strong>Bri8</strong> end to end solutions</span>
                             </h2>
-                                <h3 class="animated5">
+                             <h3 class="animated5">
                             	<span>Simplicity at work</span>
                             </h3>	
                                 
@@ -231,16 +237,13 @@
                         <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
                         <div class="slider-content">
                             <div class="col-md-12 text-center">
-                                <h2 class="animated7 white">
-                                <span>The way of <strong>Success</strong></span>
+                                <h2 class="animated7">
+                                <span>Building <strong>Amazing</strong> Solutions</span>
                             </h2>
-                                <h3 class="animated8 white">
-                            	<span>Motivation & Inspiration</span>
-                            </h3>	
-                                <div class="">
-								Dare to dream
-                                    <!-- -->
-                                </div>
+                              <h3 class="animated5">
+                            	<span>To keep it simple</span>
+                            </h3>
+                               
                             </div>
                         </div>
                     </div>
@@ -410,10 +413,150 @@
 
                <p>Bri8 consultancy services private ltd is an IT service company based in India and UK . We specialise in providing IT solutions and training for small to medium sized businesses; focusing on open source and easily maintainable technologies like Java, PHP and MySQL.</p>
 			  <br/>
-			  
+	
+                <!-- End Recent Projects Carousel -->
 
+<div id="webapp-portfolio"><!-- webapps -->
+<h1> <center> <a>Demo webapps</a></center></h1>
+<ul>
+	
+	<li>
+	   <a target="_blank" href="http://bri8school.in/demo/valueproperties/index.php/Auth/Login"><h3>Value properties(Enquiry management system)</h3></a>
+	   <ul class="list-inline"  id="portfolio-list2" data-animated="fadeIn">
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/valueproperty/Login.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/valueproperty/thumbnail/Login.png" /> 
+	 		</a> 
+ 		</li>
+              <li>
+	              <a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/valueproperty/addEnquiry.png" data-lightbox="example-1"> 
+	              <img class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/valueproperty/thumbnail/addEnquiry.png" width="120"/> 
+	              </a> 
+              </li>
+              <li>
+              	<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/valueproperty/listEnquiry.png" data-lightbox="example-1"> 
+              		<img class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/valueproperty/thumbnail/listEnquiry.png" /> 
+              	</a> 
+              </li>
+              <li>
+              	<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/valueproperty/Dashboard.png" data-lightbox="example-1"> 
+              	<img class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/valueproperty/thumbnail/Dashboard.png" /> 
+              	</a>  
+              	</li>
+            </ul>
+<br/>
+        </li>
+         <li>
+	   <a target="_blank" href="http://bri8school.in/demo/propertyalert/index.php/Auth/Login"><h3>SMS Property/tender Alert</h3></a>
+	   <ul class="list-inline">
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/tenderalert/login.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/tenderalert/thumbnail/login.png" /> 
+	 		</a> 
+ 		</li>
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/tenderalert/addMember.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/tenderalert/thumbnail/addMember.png" /> 
+	 		</a> 
+ 		</li>
+ 	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/tenderalert/addProject.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/tenderalert/thumbnail/addProject.png" /> 
+	 		</a> 
+ 		</li>
+ 	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/tenderalert/dashboard.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/tenderalert/thumbnail/dashboard.png" /> 
+	 		</a> 
+ 		</li>
+ 	        <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/tenderalert/settings.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/tenderalert/thumbnail/settings.png" /> 
+	 		</a> 
+ 		</li>				             
+            </ul>
+<br/>
 
-                <!-- Start Recent Projects Carousel -->
+	</li>
+	<li>
+	
+	   <a target="_blank" href="http://bri8school.in/demo/gps2/index.php/Auth/login"><h3>Gps tracker demo</h3></a>
+	   <ul class="list-inline">
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/all-locations.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/europa/thumbnail/all-locations.png" /> 
+	 		</a> 
+ 		</li>
+ 		<li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/employee-route.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/europa/thumbnail/employee-route.png" /> 
+	 		</a> 
+ 		</li>
+ 		<li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/manage-users.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/europa/thumbnail/manage-users.png" /> 
+	 		</a> 
+ 		</li>
+ 		<li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/settings.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/europa/thumbnail/settings.png" /> 
+	 		</a> 
+ 		</li>
+ 		
+ 		<li>
+ 		<br/>
+ 			 <ul class="list-inline">
+ 			   <li><h3>Mobile App</h3></li>
+ 			   <li>
+		 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/mobile/history.png" data-lightbox="example-1"> 
+		 			<img  class="example-image webapp-portfolio-image mobile-image" src="http://bri8school.in/demo/screenshots/europa/mobile/thumbnail/history.png" /> 
+		 		</a> 
+	 		   </li>
+	 		    <li>
+		 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/mobile/tasks.png" data-lightbox="example-1"> 
+		 			<img  class="example-image webapp-portfolio-image mobile-image" src="http://bri8school.in/demo/screenshots/europa/mobile/thumbnail/tasks.png" /> 
+		 		</a> 
+	 		   </li>
+	 		    <li>
+		 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/mobile/settings.png" data-lightbox="example-1"> 
+		 			<img  class="example-image webapp-portfolio-image mobile-image" src="http://bri8school.in/demo/screenshots/europa/mobile/thumbnail/settings.png" /> 
+		 		</a> 
+	 		   </li>
+	 		   <li>
+		 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/europa/mobile/confirmTask.png" data-lightbox="example-1"> 
+		 			<img  class="example-image webapp-portfolio-image mobile-image" src="http://bri8school.in/demo/screenshots/europa/mobile/thumbnail/confirmTask.png" /> 
+		 		</a> 
+	 		   </li>
+	 		</ul>
+ 		</li>
+ 		
+ 		
+	        			             
+            </ul>
+	</li>
+	<li>
+	    <br/>
+	   <a target="_blank" href="http://gpstracker.run/ecom/upload/"><h3>E-commerce</h3></a>
+	    <ul class="list-inline">
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/ecom/admin-products.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/ecom/thumbnail/admin-products.png" /> 
+	 		</a> 
+ 		</li>
+	         <li>
+	 		<a class="example-image webapp-portfolio-image-link" href="http://bri8school.in/demo/screenshots/ecom/main-screen.png" data-lightbox="example-1"> 
+	 			<img  class="example-image webapp-portfolio-image" src="http://bri8school.in/demo/screenshots/ecom/thumbnail/main-screen.png" /> 
+	 		</a> 
+ 		</li>
+ 	        				             
+            </ul>
+         <br/>
+	</li>
+</ul>
+</div> <!-- /webapps -->
+                
+				
+				 <!-- Start Recent Projects Carousel -->
                 <ul id="portfolio-list" data-animated="fadeIn">
                     <li>
                         <img src="images/portfolio/amaze_app.jpeg" alt="" />
@@ -454,10 +597,6 @@
                     </li>
                    
                 </ul>
-
-                <!-- End Recent Projects Carousel -->
-
-                
 
         </div>
         <!-- End Portfolio Section -->
@@ -789,107 +928,10 @@
         </div>
     </div>
 
-    <!-- Style Switcher -->
-    <div class="switcher-box">
-        <a href="#" class="open-switcher show-switcher"><i class="fa fa-cog fa-2x"></i></a>
-        <h4>Style Switcher</h4>
-        <span>12 Predefined Color Skins</span>
-        <ul class="colors-list">
-            <li>
-                <a onClick="setActiveStyleSheet('blue'); return false;" title="Blue" class="blue"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('jade'); return false;" title="Jade" class="jade"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('green'); return false;" title="Green" class="green"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('purple'); return false;" title="Purple" class="purple"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('pink'); return false;" title="Pink" class="pink"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('red'); return false;" title="Red" class="red"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('orange'); return false;" title="Orange" class="orange"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('yellow'); return false;" title="Yellow" class="yellow"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('peach'); return false;" title="Peach" class="peach"></a>
-            </li>
-            <li>
-                <a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a>
-            </li>
-        </ul>
-        <span>Top Bar Color</span>
-        <select id="topbar-style" class="topbar-style">
-            <option value="1">Light (Default)</option>
-            <option value="2">Dark</option>
-            <option value="3">Color</option>
-        </select>
-        <span>Layout Style</span>
-        <select id="layout-style" class="layout-style">
-            <option value="1">Wide</option>
-            <option value="2">Boxed</option>
-        </select>
-        <span>Patterns for Boxed Version</span>
-        <ul class="bg-list">
-            <li>
-                <a href="#" class="bg1"></a>
-            </li>
-            <li>
-                <a href="#" class="bg2"></a>
-            </li>
-            <li>
-                <a href="#" class="bg3"></a>
-            </li>
-            <li>
-                <a href="#" class="bg4"></a>
-            </li>
-            <li>
-                <a href="#" class="bg5"></a>
-            </li>
-            <li>
-                <a href="#" class="bg6"></a>
-            </li>
-            <li>
-                <a href="#" class="bg7"></a>
-            </li>
-            <li>
-                <a href="#" class="bg8"></a>
-            </li>
-            <li>
-                <a href="#" class="bg9"></a>
-            </li>
-            <li>
-                <a href="#" class="bg10"></a>
-            </li>
-            <li>
-                <a href="#" class="bg11"></a>
-            </li>
-            <li>
-                <a href="#" class="bg12"></a>
-            </li>
-            <li>
-                <a href="#" class="bg13"></a>
-            </li>
-            <li>
-                <a href="#" class="bg14"></a>
-            </li>
-        </ul>
-    </div>
+   
 
 </body>
+
+<script src="images/screenshots/lightbox2/js/lightbox-plus-jquery.min.js"></script>
 
 </html>
